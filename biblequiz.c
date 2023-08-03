@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 	int i;
-	int ans1, ans2, ans3, ans4, ans5;
+	int answer;
 	int point;
 
 	point = 0;
@@ -35,8 +36,8 @@ int main(){
 		printf("4. Genesis, Exodus, Numbers, Leviticus\n");
 
 		printf("Enter your answer: ");
-		scanf("%d", &ans1);
-		if(ans1 == 2)
+		scanf("%d", &answer);
+		if(answer == 2)
 		{
 			printf("That's correct!\n");
 			point += 5;
@@ -54,8 +55,8 @@ int main(){
 		printf("4. Sarah\n");
 
 		printf("Enter your answer: ");
-		scanf("%d", &ans2);
-		if(ans2 == 3)
+		scanf("%d", &answer);
+		if(answer == 3)
 		{
 			printf("That's correct!\n");
 			point += 5;
@@ -74,8 +75,8 @@ int main(){
 		printf("4. Paul\n");
 
 		printf("Enter your answer: ");
-		scanf("%d", &ans3);
-		if(ans3 == 1)
+		scanf("%d", &answer);
+		if(answer == 1)
 		{
 			printf("That's correct!\n");
 			point += 5;
@@ -94,8 +95,8 @@ int main(){
 		printf("4. Thirty-one\n");
 
 		printf("Enter your answer: ");
-		scanf("%d", &ans4);
-		if(ans4 == 2)
+		scanf("%d", &answer);
+		if(answer == 2)
 		{
 			printf("That's correct!\n");
 			point += 5;
@@ -114,8 +115,8 @@ int main(){
 		printf("4. He ate lots of veggies and fish (high in omega 3)\n");
 
 		printf("Enter your answer: ");
-		scanf("%d", &ans5);
-		if(ans5 == 3)
+		scanf("%d", &answer);
+		if(answer == 3)
 		{
 			printf("That's correct!\n");
 			point += 5;

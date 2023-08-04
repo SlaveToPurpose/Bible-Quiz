@@ -43,9 +43,20 @@ int main()
 			point += 5;
 			printf("You've scored 5 points\n");
 		}
-		else{
-			printf("Unforunately wrong\n");
-			printf("You've scored 0 points\n");
+		else if(answer == 0)
+		{
+			printf("Total points scored:\t%d\n",point);
+			printf("Game Exited");
+			return 0;
+		}
+		else if(answer == 3)
+		{
+			printf("Unforunately you've lost 2 points\n");
+			point -= 2;
+		}
+		else
+		{
+			printf("Unforunately wrong, you've scored 0 points\n");
 		}
 
 		printf("What was Jesus' mother's name?\n\n");
@@ -62,10 +73,20 @@ int main()
 			point += 5;
 			printf("You've scored 5 points\n");
 		}
+		else if(answer == 0)
+		{
+			printf("Total points scored:\t%d\n",point);
+			printf("Game Exited");
+			return 0;
+		}
+		else if(answer == 4)
+		{
+			point -= 2;
+			printf("Unforunately you've lost 2 points\n");
+		}
 		else
 		{
-			printf("Unforunately wrong...\n");
-			printf("You've scored 0 points\n");
+			printf("Unforunately wrong, you've scored 0 points\n");
 		}
 
 		printf("What was the name of he disciple tha betrayed Jesus?\n\n");
@@ -82,10 +103,20 @@ int main()
 			point += 5;
 			printf("You've scored 5 points\n");
 		}
+		else if(answer == 0)
+		{
+			printf("Total points scored:\t%d\n",point);
+			printf("Game Exited");
+			return 0;
+		}
+		else if(answer == 4)
+		{
+			point -= 2;
+			printf("Unforunately you've lost 2 points\n");
+		}
 		else
 		{
-			printf("Unforunately wrong...\n");
-			printf("You've scored 0 points\n");
+			printf("Unforunately wrong, you've scored 0 points\n");
 		}
 
 		printf("How many chapters are there in Revelation?\n\n");
@@ -102,10 +133,20 @@ int main()
 			point += 5;
 			printf("You've scored 5 points\n");
 		}
+		else if(answer == 0)
+		{
+			printf("Total points scored:\t%d\n",point);
+			printf("Game Exited");
+			return 0;
+		}
+		else if(answer == 3)
+		{
+			point -= 2;
+			printf("Unforunately you've lost 2 points\n");
+		}
 		else
 		{
-			printf("Unforunately wrong...\n");
-			printf("You've scored 0 points\n");
+			printf("Unforunately wrong, you've scored 0 points\n");
 		}
 
 		printf("Why was King Solomon known to be the wisest man alive?\n\n");
@@ -122,11 +163,22 @@ int main()
 			point += 5;
 			printf("You've scored 5 points\n");
 		}
+		else if(answer == 0)
+		{
+			printf("Total points scored:\t%d\n",point);
+			printf("Game Exited");
+			return 0;
+		}
+		else if(answer == 4)
+		{
+			point -= 2;
+			printf("Unforunately you've lost 2 points\n");
+		}
 		else
 		{
-			printf("Unforunately wrong...\n");
-			printf("You've scored 0 points\n");
+			printf("Unforunately wrong, you've scored 0 points\n");
 		}
+
 
 		printf("Total points scored:\t%d",point);
 	}
